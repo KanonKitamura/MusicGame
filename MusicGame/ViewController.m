@@ -70,6 +70,7 @@
         label.text =@"■";
         float y  =(time-10.0 +1.2)*speed-75;
         label.frame = CGRectMake(175,y,50,50);
+     
         
     }
 }
