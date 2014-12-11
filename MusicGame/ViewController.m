@@ -36,7 +36,7 @@
     speed = appFrame.size.height /1.2;
     
     
-    NSString *path =[[NSBundle mainBundle]pathForResource:@"風船カーニバル"ofType:@"mp3"];
+    NSString *path =[[NSBundle mainBundle]pathForResource:@"n29"ofType:@"mp3"];
     NSURL *url=[NSURL fileURLWithPath:path];
     audio =[[AVAudioPlayer alloc]initWithContentsOfURL:url error:nil];
     [audio play];//再生メソッドを呼び出す
