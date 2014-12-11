@@ -14,6 +14,11 @@
 		E90BE47D1A36E8C600AC78D0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E90BE47C1A36E8C600AC78D0 /* Images.xcassets */; };
 		E90BE4801A36E8C600AC78D0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E90BE47E1A36E8C600AC78D0 /* LaunchScreen.xib */; };
 		E90BE48C1A36E8C600AC78D0 /* MusicGameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E90BE48B1A36E8C600AC78D0 /* MusicGameTests.m */; };
+		E90BE4961A36F38400AC78D0 /* music1.png in Resources */ = {isa = PBXBuildFile; fileRef = E90BE4951A36F38400AC78D0 /* music1.png */; };
+		E90BE4981A36F38B00AC78D0 /* music6.png in Resources */ = {isa = PBXBuildFile; fileRef = E90BE4971A36F38B00AC78D0 /* music6.png */; };
+		E90BE49A1A36FCB300AC78D0 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E90BE4991A36FCB300AC78D0 /* AVFoundation.framework */; };
+		E90BE49C1A37068E00AC78D0 /* 風船カーニバル.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E90BE49B1A37068E00AC78D0 /* 風船カーニバル.mp3 */; };
+		E90BE49E1A3708C400AC78D0 /* イブ２.png in Resources */ = {isa = PBXBuildFile; fileRef = E90BE49D1A3708C400AC78D0 /* イブ２.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +45,11 @@
 		E90BE4851A36E8C600AC78D0 /* MusicGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusicGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E90BE48A1A36E8C600AC78D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E90BE48B1A36E8C600AC78D0 /* MusicGameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MusicGameTests.m; sourceTree = "<group>"; };
+		E90BE4951A36F38400AC78D0 /* music1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = music1.png; path = ../../MUSIC/music1.png; sourceTree = "<group>"; };
+		E90BE4971A36F38B00AC78D0 /* music6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = music6.png; path = ../../MUSIC/music6.png; sourceTree = "<group>"; };
+		E90BE4991A36FCB300AC78D0 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		E90BE49B1A37068E00AC78D0 /* 風船カーニバル.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "風船カーニバル.mp3"; path = "../../../Music/iTunes/iTunes Media/Music/秋山裕和(Hirokazu Akiyama)/H_MIX GALLERY/風船カーニバル.mp3"; sourceTree = "<group>"; };
+		E90BE49D1A3708C400AC78D0 /* イブ２.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "イブ２.png"; path = "../../MUSIC/イブ２.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E90BE49A1A36FCB300AC78D0 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +74,7 @@
 		E90BE4631A36E8C600AC78D0 = {
 			isa = PBXGroup;
 			children = (
+				E90BE4991A36FCB300AC78D0 /* AVFoundation.framework */,
 				E90BE46E1A36E8C600AC78D0 /* MusicGame */,
 				E90BE4881A36E8C600AC78D0 /* MusicGameTests */,
 				E90BE46D1A36E8C600AC78D0 /* Products */,
@@ -84,8 +96,10 @@
 				E90BE4731A36E8C600AC78D0 /* AppDelegate.h */,
 				E90BE4741A36E8C600AC78D0 /* AppDelegate.m */,
 				E90BE4761A36E8C600AC78D0 /* ViewController.h */,
+				E90BE49B1A37068E00AC78D0 /* 風船カーニバル.mp3 */,
 				E90BE4771A36E8C600AC78D0 /* ViewController.m */,
 				E90BE4791A36E8C600AC78D0 /* Main.storyboard */,
+				E90BE49D1A3708C400AC78D0 /* イブ２.png */,
 				E90BE47C1A36E8C600AC78D0 /* Images.xcassets */,
 				E90BE47E1A36E8C600AC78D0 /* LaunchScreen.xib */,
 				E90BE46F1A36E8C600AC78D0 /* Supporting Files */,
@@ -96,6 +110,8 @@
 		E90BE46F1A36E8C600AC78D0 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E90BE4971A36F38B00AC78D0 /* music6.png */,
+				E90BE4951A36F38400AC78D0 /* music1.png */,
 				E90BE4701A36E8C600AC78D0 /* Info.plist */,
 				E90BE4711A36E8C600AC78D0 /* main.m */,
 			);
@@ -199,9 +215,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E90BE49E1A3708C400AC78D0 /* イブ２.png in Resources */,
 				E90BE47B1A36E8C600AC78D0 /* Main.storyboard in Resources */,
 				E90BE4801A36E8C600AC78D0 /* LaunchScreen.xib in Resources */,
 				E90BE47D1A36E8C600AC78D0 /* Images.xcassets in Resources */,
+				E90BE4981A36F38B00AC78D0 /* music6.png in Resources */,
+				E90BE49C1A37068E00AC78D0 /* 風船カーニバル.mp3 in Resources */,
+				E90BE4961A36F38400AC78D0 /* music1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
